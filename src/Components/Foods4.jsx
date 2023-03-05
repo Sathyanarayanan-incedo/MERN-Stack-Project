@@ -1,5 +1,6 @@
 import React from "react";
-import Rating from "./Rating";
+import RatingPoha from "./Rating_Poha";
+import RatingPanipuri from "./Rating_Panipuri";
 import { Link } from "react-router-dom";
 
 const Foods4 = () => {
@@ -7,7 +8,7 @@ const Foods4 = () => {
         <div>
             <div className="card7">
                 <br/>
-               <center><Rating/></center>
+               <center><RatingPoha/></center>
                <img src="https://cdn.cdnparenting.com/articles/2020/02/26143210/POHA-RECIPE.jpg" alt="" />
                <h3>Poha</h3>
                <button className="bt2"><Link to={"/poha"}>RECIPE</Link></button>
@@ -15,7 +16,7 @@ const Foods4 = () => {
             <br/>
             <div className="card8">
             <br/>
-               <center><Rating/></center>
+               <center><RatingPanipuri/></center>
                <img src="https://tse3.mm.bing.net/th?id=OIP.SyfbNQMY9OvsQ30Ky4aWjAHaFj&pid=Api&P=0" alt="" />
                <h3>Pani Puri</h3>
                <button className="bt2"><Link to={"/panipuri"}>RECIPE</Link></button>
